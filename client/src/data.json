@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/sisig.jpg",
+    "occupation": "Ladies Man",
+    "name": "Sisig",
+    "price" : 12.99,
+    "qty" : 1,
+    "clicked": false
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/karekare.jpg",
+    "name": "Kare-Kare",
+    "price" : 14.99,
+    "qty" : 1,
+    "clicked": false
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/eggroll.jpg",
+    "name": "Egg Roll",
+    "price" : 7.99,
+    "qty" : 1,
+    "clicked": false
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/pancitcanton.jpg",
+    "name": "Pansit Canton",
+    "price" : 9.99,
+    "qty" : 1,
+    "clicked": false
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/kaldereta.jpg",
+    "name": "Spicy Kaldereta",
+    "price" : 12.99,
+    "qty" : 1,
+    "clicked": false
+  },
+  {
+    "id": 6,
+    "image": "/assets/images/pinakbet.jpg",
+    "name": "Pinakbet",
+    "price" : 10.99,
+    "qty" : 1,
+    "clicked": false
+  },
+  {
+    "id": 7,
+    "image":"/assets/images/daingnabangus.jpg",
+    "name": "Daing na Bangus",
+    "price" : 9.99,
+    "qty" : 1,
+    "clicked": false
+  },
+  {
+    "id": 8,
+    "image": "/assets/images/lechonkawali.jpg",
+    "name": "Lechon Kawali",
+    "price" : 13.99,
+    "qty" : 1,
+    "clicked": false
+  },
+  {
+    "id": 9,
+    "image": "/assets/images/calamari.jpg",
+    "name": "Calamari",
+    "price" : 8.99,
+    "qty" : 1,
+    "clicked": false
+  }
+   
+]
