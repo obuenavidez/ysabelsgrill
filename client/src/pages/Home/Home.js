@@ -11,7 +11,7 @@ const Home = () => (
   <div>
     <Hero backgroundImage="/assets/images/Ysabels.jpg">
       <center>
-      <h1>Ysabel's Grill</h1>
+      <h1>Oscar D. Buenavidez Jr.</h1>
       <h2>Good Food ... Good Place !!!</h2>
       <h3>4908 W Irving Park Rd 
        Chicago, Illinois 60641 | (773) 481-3781</h3> 

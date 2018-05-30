@@ -25,7 +25,7 @@ const Orders = () => (
     <Container style={{ marginTop: 30 }}>
        <Row>
         <Col size="md-12">
-          <h1>About Us</h1>
+          <h1>About Me</h1>
         </Col>
       
        </Row>

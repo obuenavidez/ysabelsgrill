@@ -37,26 +37,32 @@ const Nav = props => (
         {/* <a href="/">Clicky Game</a> */}
 
         <a href="/" className="navbar-brand">
-          Ysabel's Grill 
+          Oscar D. Buenavidez Jr 
        </a>
       </li> 
       <li>
 
-         <a href="/orders" className="navbar-brand">
-          About Us
+         <a href="/aboutme" className="navbar-brand">
+          About Me
          </a>
       </li>
       <li>
 
          <a href="/users" className="navbar-brand">
-          Add Product
+         My Projects
        </a>
       </li>
       <li> 
-       <a href="/products" className="navbar-brand">
-          Order Online
+       <a href="/sendmessage" className="navbar-brand">
+          Message Me
         </a>
       </li>  
+      <li>
+      <a href="/inbox" className="navbar-brand">
+          INBOX
+        </a>
+      </li>  
+
 
        
       {/* <NavMessage score={props.score} topScore={props.topScore} /> */}
