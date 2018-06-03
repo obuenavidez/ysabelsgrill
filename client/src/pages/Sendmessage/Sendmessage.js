@@ -6,6 +6,11 @@ import API from "../../utils/API";
 import { Col, Row, Container } from "../../components/Grid";
 //import { List, ListItem } from "../../components/List";
 import { Input, TextArea, FormBtn } from "../../components/Form";
+import Hero from "../../components/Hero";
+
+// import Jumbotron from "../../components/Jumbotron";
+// import { Link } from "react-router-dom";
+
 
 class Users extends Component {
   state = {
@@ -58,43 +63,84 @@ class Users extends Component {
 
   render() {
     return (
-      <Container style={{ marginTop: 330 }}>
-        <Row>
-          <Col size="md-8">
+
+
+
+      <Container style={{ marginTop: 30 }}>
+       <Row>
+          <Col size="md-4">
+            <h1> About Me</h1>
+          </Col>
+          <Col size="md-4">
+            <h1> <h2>Send Me A Message ... </h2></h1>
+          </Col>
+       </Row>
+
+       <Row>
+       <Col size="md-4">
+       <Hero backgroundImage="/assets/images/ODB.NorthWestern.png">
+       <h3><center>"If you can think it ... I can do it "</center></h3>
+       </Hero>
+       {/* <Jumbotron backgroundImage="https://i.imgur.com/qkdpN.jpg">
+              <h4>My Image Here</h4>
+       </Jumbotron>  */}
+       <br/>
+       <br/>
+        <p>
+          
+         
+          Website : www.obuenavidez.com<br/>
+          Git Repo : www.github.com/obuenavidez<br/>
+          Contact # : 773.567.3930<br/>
+          Email : obuenavidez@gmail.com<br/><br/>
+           
+
+         
+          </p>
+       </Col>   
+       
+       <Col size="md-8">
             {/* <Jumbotron>
               <h2>Add Product </h2>
             </Jumbotron> */}
-            <h2>Send Me A Message ... </h2>
+            
             <form>
               <Input
                 value={this.state.fname}
                 onChange={this.handleInputChange}
                 name="fname"
-                placeholder="Product Name (required)"
+                placeholder="Your Name (required)"
               />
               <Input
                 value={this.state.lname}
                 onChange={this.handleInputChange}
                 name="lname"
-                placeholder="Price (required)"
+                placeholder="Subject (required)"
               />
               <TextArea
                 value={this.state.message}
                 onChange={this.handleInputChange}
                 name="message"
-                placeholder="Description (Optional)"
+                placeholder="Message Here and Callbacks (required)"
               />
               <FormBtn
                 disabled={!(this.state.lname && this.state.fname)}
                 onClick={this.handleFormSubmit}
               >
-                Add Product
+                Send
               </FormBtn>
             </form>
           </Col>
+        
+       </Row> 
+
+        
+      
+    </Container>
+      
+         
           
-        </Row>
-      </Container>
+        
     );
   }
 }

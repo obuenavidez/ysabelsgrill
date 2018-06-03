@@ -48,7 +48,7 @@ const Nav = props => (
       </li>
       <li>
 
-         <a href="/users" className="navbar-brand">
+         <a href="/projects" className="navbar-brand">
          My Projects
        </a>
       </li>

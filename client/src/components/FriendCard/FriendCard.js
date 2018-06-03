@@ -1,6 +1,9 @@
 import React from "react";
 import "./FriendCard.css";
 
+import { Link } from "react-router-dom";
+import { FormBtnInfo } from "../../components/Form";
+import { FormBtn } from "../../components/Form";
  
 
 
@@ -25,7 +28,19 @@ const FriendCard = props => (
           <strong>Location:</strong> {props.location}
         </li>
       </ul>
+      <div className="content">
+      <Link to="/projects">  
+           <FormBtnInfo>
+               View Code
+          </FormBtnInfo>
+          <FormBtn>
+               View Demo
+          </FormBtn>
+      </Link>    
+          
     </div>
+    </div>
+    
     <span onClick={() => props.handleItemClick(props.id)} 
     className="remove">
 

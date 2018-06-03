@@ -28,7 +28,7 @@
   cursor: pointer;
   text-decoration: none;
   background-color: gray;
-  font-style: bold;
+  font-style: normal;
   
 
 }
@@ -41,7 +41,7 @@
 }
 
 .list-overflow-container p {
-  font-weight:bold; 
+  font-weight:normal; 
   color:white;
   background-color: #72C245;
   font-size:18px;

@@ -12,6 +12,7 @@ import Thankyou from "./pages/Thankyou";
 import Inbox from "./pages/Inbox";
 import Aboutme from "./pages/Aboutme";
 import Sendmessage from "./pages/Sendmessage";
+import Projects from "./pages/Projects";
 
 //import Products from "./pages/Products";
 
@@ -38,7 +39,7 @@ const App = () => (
 
          <Route exact path="/users" component={Users} />
          <Route exact path="/orders" component={Orders} />
-         <Route exact path="/sendmessage" component={Sendmessage} />
+         {/* <Route exact path="/sendmessage" component={Sendmessage} /> */}
          <Route exact path="/checkout" component={Checkout} />
          <Route exact path="/thankyou" component={Thankyou} />
          
@@ -46,7 +47,7 @@ const App = () => (
           <Route exact path="/inbox" component={Inbox} />
           <Route exact path="/aboutme" component={Aboutme} />
           <Route exact path="/sendmessage" component={Sendmessage} />
-
+          <Route exact path="/projects" component={Projects} />
       
       
       
@@ -56,7 +57,7 @@ const App = () => (
 
         <Route component={NoMatch} />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </div>
    
   </Router>

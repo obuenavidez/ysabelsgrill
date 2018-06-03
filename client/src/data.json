@@ -2,17 +2,19 @@
   {
     "id": 1,
     "image": "/assets/images/sisig.jpg",
-    "occupation": "Ladies Man",
+    "occupation": " Ladies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies Man ",
     "name": "Sisig",
     "price" : 12.99,
     "qty" : 1,
     "clicked": false
   },
   {
+    
     "id": 2,
-    "image": "/assets/images/karekare.jpg",
-    "name": "Kare-Kare",
-    "price" : 14.99,
+    "image": "/assets/images/sisig.jpg",
+    "occupation": " Ladies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies ManLadies Man ",
+    "name": "Sisig",
+    "price" : 12.99,
     "qty" : 1,
     "clicked": false
   },
@@ -68,6 +70,15 @@
     "id": 9,
     "image": "/assets/images/calamari.jpg",
     "name": "Calamari",
+    "price" : 8.99,
+    "qty" : 1,
+    "clicked": false
+  },
+
+  {
+    "id": 9,
+    "image": "/assets/images/calendar.png",
+    "name": "Calendar",
     "price" : 8.99,
     "qty" : 1,
     "clicked": false
